@@ -5,7 +5,7 @@
     <nav>{% include nav.html %}</nav>
     <div class="wrapper">
       <main>{{ content }}</main>
-      <footer>{% include footer.html %}</footer>
+      <footer><a class="internal-link" href="{{ site.baseurl }}/about">About</a> | <a class="internal-link" href="{{ site.baseurl}}/contact">Contact</a></footer>
     </div>
 
     {% include link-previews.html wrapperQuerySelector="content" %}
